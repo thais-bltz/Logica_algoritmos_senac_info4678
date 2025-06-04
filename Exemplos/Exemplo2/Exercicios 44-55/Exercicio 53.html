@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>document</title>
+    </head>
+    <body>
+
+        <script>
+           window.onload = function(){
+            var media = 0
+            var cadastro = 0;
+            var idadeMasculina = 0;
+            var mulheres = 0;
+            var mulheres1 = 0;
+        for(var i = 0; i < 5; i ++) {
+            var idade = Number(prompt("Digite sua idade"));
+            var sexo = prompt("Digite seu genero");
+            media = media + idade;
+        if(sexo == "homem"){
+            cadastro += 1}
+        if(sexo == "mulher"){
+            mulheres += 1}
+        if(sexo == "mulher" && idade >= 20)
+            mulheres1 += 1}
+            media = media /5;
+            idadeMasculina = media/cadastro;
+        alert("Essa é a quantidade de homens cadastrados" + cadastro + "E essa é a quantidade de mulheres" + mulheres + " esta e a media de iddade dos homens" + idadeMasculina + "essa é a quantidae de mulheres com mais de 20 anos" + mulheres)}
+</script>
+</body>
+</html>

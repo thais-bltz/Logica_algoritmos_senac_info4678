@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="cigarrosdia" placeholder="cigarros">
+    <input type="text" id="anos" placeholder="anos">
+    <button onclick="ExibeDadoDigitado()">Click Aqui</button>
+<script>
+        function ExibeDadoDigitado(){
+            var cigarrosdia = document.getElementById("cigarrosdia").value;
+            var anos = document.getElementById("anos").value;
+            var minvida = 10;
+            var resultado = cigarrosdia * minvida;
+            var resultado2 = Number(365 * resultado) * Number(anos);
+            var resultadofinal = (resultado2 / 60) / 24;
+            alert("  " + " = " + resultadofinal)
+        }
+</script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><input type="text" id="par">
+
+    <button onclick="ImparPar()">Click Aqui </button>
+    <script>
+         function ImparPar(){
+            var Par = document.getElementById("Par").value;
+      
+        if(Par %2 == 0){
+            alert("Numero Par");
+        }
+        else{
+            alert("Numero Impar");
+        }
+    }
+</script>
+</body>
+</html>

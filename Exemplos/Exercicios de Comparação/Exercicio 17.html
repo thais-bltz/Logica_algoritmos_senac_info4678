@@ -6,13 +6,13 @@
         <title>document</title>
     </head>
     <body>
-        <input type="number" id="velocidadeDoCarro" value=>
+        <input type="text" id="velocidadeDoCarro" value=>
         <button onclick="VerificarVelocidade()">Click aqui</button>
 
         <script>
             function VerificarVelocidade()
             {
-               var velocidadeDoCarro = number(document.getElementById("velocidadeDoCarro").value);
+               var velocidadeDoCarro = number.getElementById("velocidadeDoCarro").value;
 
                if(velocidadeDoCarro > 80)
                {
@@ -20,7 +20,6 @@
                 var valorDaMulta = velocidadeExcedente * 5;
                 aler("Você foi multado. Valor a pagar:" * valorDaMulta);
                }else{
-                
                 alert("Parabéns, você está dentro do limite de velocidade permitido");
                }
 

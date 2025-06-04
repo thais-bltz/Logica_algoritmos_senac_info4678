@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+          window.onload = function(){
+            var random = Math.trunc(Math.random()*11);
+
+            for(var i = 0; i < 4; i ++){
+            var valor = Number(prompt("valor"));
+            if (valor == random){
+                alert ("Você acertou!")}
+            else {
+                alert ("Você errou, tente novamente")
+            }
+        }
+    }
+            
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <br><input type="text" id="ALISTAMENTO">
+
+    <button onclick="ALISTAMENTO()">Entrar </button>
+    <script>
+         function ALISTAMENTO(){
+            var ALISTAMENTO = document.getElementById("ALISTAMENTO").value;
+            var IDADE = 2025 - ALISTAMENTO;
+        if(IDADE > 18){
+            alert("APTO AO SERVIÇO MILITAR")
+        }
+        else{
+            var FINAL =18 - IDADE;
+             alert("VOCÊ NÃO TEM IDADE SUFICIENTE PARA O ALISTAMENTO MILITAR AINDA FALTAM" + "  " + FINAL + " ANOS ");
+        }
+
+    }
+    </script>
+</body>
+</html>

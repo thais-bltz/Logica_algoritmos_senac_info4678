@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor</title>
+</head>
+<body>
+<input type="text" id="valor">
+<button onclick="ExibeDadoDigitado()">Click Aqui</button>
+<script>
+    function ExibeDadoDigitado(){
+    var valor = document.getElementById("valor").value;
+    var resultado = Number(valor) / 5.76;
+    
+            alert("  " + valor +  " = " + resultado)
+        }
+
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="text" id="primeiro_nome" value="Nicolas Cagezinho">
+        <button onclick="exibeDadoDigitado()">Click nim mim</button>
+
+        <script>
+            function exibeDadoDigitado()
+            {
+               var primeiroNome = document.getElementById("primeiro_nome").value;
+
+               if()
+
+               alert(primeiroNome)
+            }
+        </script>
+    </body>
+</html>
